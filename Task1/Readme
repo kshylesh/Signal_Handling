@@ -1,0 +1,17 @@
+Team 26
+Karthik Shylesh Kumar 1213169085
+Dheemanth Bykere Mallikarjun 1213381271
+
+-------------------------------------------------------------------------
+List of files/file
+-------------------------------------------------------------------------
+task1.c:C file demonstrating setjump and longjump.
+
+-------------------------------------------------------------------------
+Steps to run the code
+-------------------------------------------------------------------------
+1.Change the mouse event to corresponding event "/dev/input/eventx"
+2.Compile the code and generate object file using make file make command.
+3.Execute the program with command "sudo ./task1.o"
+4.Mouse click to kill the task.
+
