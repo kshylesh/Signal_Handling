@@ -1,0 +1,18 @@
+Team 26
+Karthik Shylesh Kumar 1213169085
+Dheemanth Bykere Mallikarjun 1213381271
+
+-------------------------------------------------------------------------
+List of files/file
+-------------------------------------------------------------------------
+task2.c:C file demonstrating event handling for various cases (thread running,thread running realtime,thread blocked by semaphore and thread is delayed).
+
+-------------------------------------------------------------------------
+Steps to run the code
+----------------------------------------------------------------------
+1.Compile the code and generate object file using make file make command.
+2.Execute the program with command "sudo ./task2.o"
+3.To perform ftrace run using command "sudo trace-cmd record -e sched_switch -e signal taskset 0x01 ./task2.o"
+3.After the program finihes executing run kernelshark to check the signal generation and signal delivery.
+5.Seperate report file listing all the signal handling has be uploaded with the source code.
+
