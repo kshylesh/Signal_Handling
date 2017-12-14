@@ -1,0 +1,18 @@
+Team 26
+Karthik Shylesh Kumar 1213169085
+Dheemanth Bykere Mallikarjun 1213381271
+
+---------------------------------------------------------------------------
+list of files
+---------------------------------------------------------------------------
+sig_lib.c:c file consisting of signal handler fucnitons.
+sig_lib.h:header file for function declarations.
+sig_lib_test.c:c file to test the signal handling for multiple threads.
+
+----------------------------------------------------------------------------
+Steps to run the code
+----------------------------------------------------------------------------
+1.Change the mouse event to corresponding event "/dev/input/eventx"
+2.Compile the code and generate object file using make file make command.
+3.Execute the program with command "sudo ./sig_lib_test.o"
+
